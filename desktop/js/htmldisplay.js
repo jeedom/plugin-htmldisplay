@@ -107,3 +107,19 @@ function printEqLogic(_eqLogic){
     }
   });
 }
+
+$('#bt_htmlDisplayChooseIcon').off('click').on('click',function(){
+  chooseIcon(function (_icon) {
+    var editor = null;
+    if($('a[data-toggle="tab"][href="#mobiletab"]').closest('li').hasClass('active')){
+      editor = editorMobileHtml
+    }
+    if($('a[data-toggle="tab"][href="#dashboardtab"]').closest('li').hasClass('active')){
+      editor = editorDashboardHtml
+    }
+    if(editor != null){
+      var doc = editor.getDoc();
+      doc.replaceRange(_icon,doc.getCursor());
+    }
+  },{img:true});
+})
