@@ -29,6 +29,10 @@ class htmldisplay extends eqLogic {
   
   /*     * *********************Méthodes d'instance************************* */
   
+  public function postSave(){
+    $this->refreshWidget();
+  }
+  
   
   public function preRemove() {
     if(file_exists(__DIR__.'/../../data/'.$this->getId())){
@@ -44,8 +48,9 @@ class htmldisplay extends eqLogic {
     }else if($_version == 'mobile'){
       $html .= '<div class="eqLogic eqLogic-widget" data-eqLogic_id="#id#" data-eqType="#eqType#" data-version="#version#" data-eqLogic_uid="#uid#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="#style#">';
     }
+    $html .= '<div>';
     $html .= $this->getHtmlContent($_version);
-    $html .= '</div>';
+    $html .= '</div></div>';
     return str_replace(array_keys($replace),$replace,$html);
   }
   

@@ -27,8 +27,6 @@ $('a[data-toggle="tab"][href="#mobiletab"]').on('shown.bs.tab', function (e) {
       matchBrackets: true,
       viewportMargin: Infinity
     });
-    h = $(window).height() - ($('header.navbar').height() + $('#div_pageContainer').height()) + 50;
-    editorMobileHtml.setSize(null, h);
     if(htmldisplayContent != null){
       editorMobileHtml.getDoc().setValue(htmldisplayContent.mobile);
       editorMobileHtml.refresh();
@@ -44,8 +42,6 @@ $('a[data-toggle="tab"][href="#dashboardtab"]').on('shown.bs.tab', function (e) 
       matchBrackets: true,
       viewportMargin: Infinity
     });
-    h = $(window).height() - ($('header.navbar').height() + $('#div_pageContainer').height()) + 50;
-    editorDashboardHtml.setSize(null, h);
     if(htmldisplayContent != null){
       editorDashboardHtml.getDoc().setValue(htmldisplayContent.dashboard);
       editorDashboardHtml.refresh();
