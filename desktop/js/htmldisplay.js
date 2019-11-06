@@ -15,8 +15,9 @@
 * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
 */
 
-editorDashboardHtml = null;
-editorMobileHtml = null;
+var editorDashboardHtml = null;
+var editorMobileHtml = null;
+var htmldisplayContent = null;
 
 $('a[data-toggle="tab"][href="#mobiletab"]').on('shown.bs.tab', function (e) {
   if (editorMobileHtml == null) {
@@ -28,6 +29,10 @@ $('a[data-toggle="tab"][href="#mobiletab"]').on('shown.bs.tab', function (e) {
     });
     h = $(window).height() - ($('header.navbar').height() + $('#div_pageContainer').height()) + 50;
     editorMobileHtml.setSize(null, h);
+    if(htmldisplayContent != null){
+      editorMobileHtml.getDoc().setValue(htmldisplayContent.mobile);
+      editorMobileHtml.refresh();
+    }
   }
 });
 
@@ -41,5 +46,68 @@ $('a[data-toggle="tab"][href="#dashboardtab"]').on('shown.bs.tab', function (e) 
     });
     h = $(window).height() - ($('header.navbar').height() + $('#div_pageContainer').height()) + 50;
     editorDashboardHtml.setSize(null, h);
+    if(htmldisplayContent != null){
+      editorDashboardHtml.getDoc().setValue(htmldisplayContent.dashboard);
+      editorDashboardHtml.refresh();
+    }
   }
 });
+
+function saveEqLogic(_eqLogic){
+  var mobile = '';
+  if(editorMobileHtml != null){
+    mobile = editorMobileHtml.getValue()
+  }
+  var dashboard = '';''
+  if(editorDashboardHtml != null){
+    dashboard = editorDashboardHtml.getValue()
+  }
+  $.ajax({
+    type: "POST",
+    url: "plugins/htmldisplay/core/ajax/htmldisplay.ajax.php",
+    data: {
+      action: "saveHtmlDisplay",
+      id: _eqLogic.id,
+      mobile: mobile,
+      dashboard: dashboard,
+    },
+    dataType: 'json',
+    error: function (request, status, error) {
+      handleAjaxError(request, status, error);
+    },
+    success: function (data) {
+      
+    }
+  });
+  return _eqLogic;
+}
+
+function printEqLogic(_eqLogic){
+  $.ajax({
+    type: "POST",
+    url: "plugins/htmldisplay/core/ajax/htmldisplay.ajax.php",
+    data: {
+      action: "getHtmlDisplay",
+      id: _eqLogic.id,
+    },
+    dataType: 'json',
+    error: function (request, status, error) {
+      handleAjaxError(request, status, error);
+    },
+    success: function (data) {
+      htmldisplayContent = data.result;
+      if (editorDashboardHtml != null) {
+        editorDashboardHtml.getDoc().setValue(data.result.dashboard);
+        setTimeout(function () {
+          editorDashboardHtml.refresh();
+        }, 1);
+      }
+      if (editorMobileHtml != null) {
+        editorMobileHtml.getDoc().setValue(data.result.mobile);
+        setTimeout(function () {
+          editorMobileHtml.refresh();
+        }, 1);
+      }
+    }
+  });
+}

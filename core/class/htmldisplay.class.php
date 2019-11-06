@@ -26,84 +26,38 @@ class htmldisplay extends eqLogic {
   
   /*     * ***********************Methode static*************************** */
   
-  /*
-  * Fonction exécutée automatiquement toutes les minutes par Jeedom
-  public static function cron() {
   
-}
-*/
-
-
-/*
-* Fonction exécutée automatiquement toutes les heures par Jeedom
-public static function cronHourly() {
-
-}
-*/
-
-/*
-* Fonction exécutée automatiquement tous les jours par Jeedom
-public static function cronDaily() {
-
-}
-*/
-
-
-
-/*     * *********************Méthodes d'instance************************* */
-
-public function preInsert() {
+  /*     * *********************Méthodes d'instance************************* */
   
-}
-
-public function postInsert() {
   
-}
-
-public function preSave() {
+  public function preRemove() {
+    if(file_exists(__DIR__.'/../../data/'.$this->getId())){
+      rrmdir(__DIR__.'/../../data/'.$this->getId());
+    }
+  }
   
-}
-
-public function postSave() {
+  public function toHtml($_version = 'dashboard'){
+    $replace = $this->preToHtml($_version);
+    $html = '';
+    if($_version == 'dashboard'){
+      $html .= '<div class="eqLogic eqLogic-widget allowResize #eqLogic_class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">';
+    }else if($_version == 'mobile'){
+      $html .= '<div class="eqLogic eqLogic-widget" data-eqLogic_id="#id#" data-eqType="#eqType#" data-version="#version#" data-eqLogic_uid="#uid#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="#style#">';
+    }
+    $html .= $this->getHtmlContent($_version);
+    $html .= '</div>';
+    return str_replace(array_keys($replace),$replace,$html);
+  }
   
-}
-
-public function preUpdate() {
+  public function getHtmlContent($_version = 'dashboard'){
+    $path = __DIR__.'/../../data/'.$this->getId();
+    if(file_exists($path.'/'.$_version.'.html')){
+      return file_get_contents($path.'/'.$_version.'.html');;
+    }
+    return '';
+  }
   
-}
-
-public function postUpdate() {
-  
-}
-
-public function preRemove() {
-  
-}
-
-public function postRemove() {
-  
-}
-
-/*
-* Non obligatoire mais permet de modifier l'affichage du widget si vous en avez besoin
-public function toHtml($_version = 'dashboard') {
-
-}
-*/
-
-/*
-* Non obligatoire mais ca permet de déclencher une action après modification de variable de configuration
-public static function postConfig_<Variable>() {
-}
-*/
-
-/*
-* Non obligatoire mais ca permet de déclencher une action avant modification de variable de configuration
-public static function preConfig_<Variable>() {
-}
-*/
-
-/*     * **********************Getteur Setteur*************************** */
+  /*     * **********************Getteur Setteur*************************** */
 }
 
 class htmldisplayCmd extends cmd {
@@ -115,16 +69,9 @@ class htmldisplayCmd extends cmd {
   
   /*     * *********************Methode d'instance************************* */
   
-  /*
-  * Non obligatoire permet de demander de ne pas supprimer les commandes même si elles ne sont pas dans la nouvelle configuration de l'équipement envoyé en JS
-  public function dontRemoveCmd() {
-  return true;
-}
-*/
-
-public function execute($_options = array()) {
+  public function execute($_options = array()) {
+    
+  }
   
-}
-
-/*     * **********************Getteur Setteur*************************** */
+  /*     * **********************Getteur Setteur*************************** */
 }
