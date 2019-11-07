@@ -58,7 +58,6 @@ $eqLogics = eqLogic::byType($plugin->getId());
 						<div class="form-group">
 							<label class="col-sm-3 control-label">{{Nom de l'équipement html}}</label>
 							<div class="col-sm-3">
-								<input type="text" class="form-control" id="in_hiddenHtmlDisplayCopy" style="display : none;" />
 								<input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" />
 								<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement html}}"/>
 							</div>
