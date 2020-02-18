@@ -1,0 +1,29 @@
+{
+    "desktop\/php\/htmldisplay.php": {
+        "401 - Accès non autorisé": "401 - Accès non autorisé",
+        "Gestion": "Gestion",
+        "Ajouter": "Ajouter",
+        "Configuration": "Configuration",
+        "Mes templates": "Mes templates",
+        "Rechercher": "Rechercher",
+        "Icônes\/Images": "Icônes\/Images",
+        "Configuration avancée": "Configuration avancée",
+        "Sauvegarder": "Sauvegarder",
+        "Supprimer": "Supprimer",
+        "Equipement": "Equipement",
+        "Dashboard": "Dashboard",
+        "Mobile": "Mobile",
+        "Nom de l'équipement html": "Nom de l'équipement html",
+        "Objet parent": "Objet parent",
+        "Aucun": "Aucun",
+        "Activer": "Activer",
+        "Visible": "Visible"
+    },
+    "core\/ajax\/htmldisplay.ajax.php": {
+        "401 - Accès non autorisé": "401 - Accès non autorisé",
+        "Impossible de trouver l\\'équipement : ": "Impossible de trouver l\\'équipement : ",
+        "Impossible de créer le dossier : ": "Impossible de créer le dossier : ",
+        "Impossible d\\'écrire dans : ": "Impossible d\\'écrire dans : ",
+        "Aucune méthode correspondante à : ": "Aucune méthode correspondante à : "
+    }
+}
