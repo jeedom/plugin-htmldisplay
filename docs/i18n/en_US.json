@@ -9,7 +9,7 @@
         "md": {
             "HTML Display": "HTML Display",
             "Plugin très simple permettant de mettre le code HTML/javascript/Css que vous voulez sur sa tuile équipements": {
-                "": "Very simple plugin allowing you to put the HTML/javascript/CSS code you want on its equipment tile."
+                "": "Very simple plugin allowing you to put the HTML/javascript/ CSS code you want on its equipment tile."
             },
             "IMPORTANT": "IMPORTANT",
             "Le plugin necessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fournis par l'équipe Jeedom sur le code de votre widget": {
