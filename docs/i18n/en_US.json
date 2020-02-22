@@ -1,13 +1,13 @@
 {
     "changelog": {
         "md": {
-            "14/11/2019": "",
-            "Version initiale": ""
+            "14/11/2019": "changelog.md.14/11/2019",
+            "Version initiale": "Initial version"
         }
     },
     "index": {
         "md": {
-            "HTML Display": "",
+            "HTML Display": "HTML Display",
             "Plugin très simple permettant de mettre le code HTML/javascript/Css que vous voulez sur sa tuile équipements": {
                 "": ""
             },
