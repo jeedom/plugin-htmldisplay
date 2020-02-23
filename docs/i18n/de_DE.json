@@ -5,9 +5,9 @@
     },
     "index.md": {
         "HTML Display": "HTML-Anzeige",
-        "Plugin très simple permettant de mettre le code HTML\/javascript\/Css que vous voulez sur sa tuile équipements.": "Sehr einfaches Plugin, mit dem Sie den gewünschten HTML- \/ Javascript- \/ CSS-Code auf die Gerätekachel setzen können.",
+        "Plugin très simple permettant de mettre le code HTML\/javascript\/Css que vous voulez sur sa tuile équipements": "Sehr einfaches Plugin, mit dem Sie den gewünschten HTML- \/ Javascript- \/ CSS-Code auf die Gerätekachel setzen können",
         "IMPORTANT": "WICHTIG",
-        "Le plugin necessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fournis par l'équipe Jeedom sur le code de votre widget.": "Das Plugin muss wissen, wie man in HTML, Javascript und CSS codiert. Das Jeedom-Team unterstützt den Code Ihres Widgets nicht.",
+        "Le plugin necessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fournis par l'équipe Jeedom sur le code de votre widget": "Das Plugin muss wissen, wie man in HTML, Javascript und CSS codiert. Das Jeedom-Team unterstützt den Code Ihres Widgets nicht",
         "Les cas d'utilisation peuvent etre": "Anwendungsfälle können sein",
         "menu unique pour les designs": "einzigartiges Menü für Designs",
         "inclusion d'information exterieure à Jeedom": "Aufnahme externer Informationen bei Jeedom",

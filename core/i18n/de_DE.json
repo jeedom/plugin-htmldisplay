@@ -1,27 +1,25 @@
 {
-    "desktop/php/htmldisplay": {
-        "php": {
-            "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
-            "Gestion": "Management",
-            "Ajouter": "hinzufügen",
-            "Configuration": "Konfiguration",
-            "Mes templates": "Meine Vorlagen",
-            "Rechercher": "Suche",
-            "Icônes/Images": "Icons / Bilder",
-            "Configuration avancée": "Erweiterte Konfiguration",
-            "Sauvegarder": "speichern",
-            "Supprimer": "Entfernen",
-            "Equipement": "Ausrüstung",
-            "Dashboard": "Armaturenbrett",
-            "Mobile": "Handy",
-            "Nom de l'équipement html": "Name der HTML-Ausrüstung",
-            "Objet parent": "Übergeordnetes Objekt",
-            "Aucun": "keine",
-            "Activer": "activate",
-            "Visible": "sichtbar"
-        }
+    "desktop\/php\/htmldisplay.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Gestion": "Management",
+        "Ajouter": "hinzufügen",
+        "Configuration": "Konfiguration",
+        "Mes templates": "Meine Vorlagen",
+        "Rechercher": "Suche",
+        "Icônes\/Images": "Icons \/ Bilder",
+        "Configuration avancée": "Erweiterte Konfiguration",
+        "Sauvegarder": "speichern",
+        "Supprimer": "Entfernen",
+        "Equipement": "Ausrüstung",
+        "Dashboard": "Armaturenbrett",
+        "Mobile": "Handy",
+        "Nom de l'équipement html": "Name der HTML-Ausrüstung",
+        "Objet parent": "Übergeordnetes Objekt",
+        "Aucun": "keine",
+        "Activer": "activate",
+        "Visible": "sichtbar"
     },
-    "core/ajax/htmldisplay": {
+    "core\/ajax\/htmldisplay.ajax.php": {
         "ajax": {
             "php": {
                 "401 - Accès non autorisé": "401 - Unauthorized access",
