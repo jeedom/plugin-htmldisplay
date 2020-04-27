@@ -1,33 +1,29 @@
 {
-    "desktop\/php\/htmldisplay.php": {
+    "plugins\/htmldisplay\/desktop\/php\/htmldisplay.php": {
         "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
-        "Gestion": "Management",
-        "Ajouter": "hinzufügen",
+        "Gestion": "Verwaltung",
+        "Ajouter": "Hinzufügen",
         "Configuration": "Konfiguration",
-        "Mes templates": "Meine Vorlagen",
-        "Rechercher": "Suche",
-        "Icônes\/Images": "Icons \/ Bilder",
+        "Mes templates": "",
+        "Rechercher": "Suchen nach",
+        "Icônes\/Images": "",
         "Configuration avancée": "Erweiterte Konfiguration",
-        "Sauvegarder": "speichern",
-        "Supprimer": "Entfernen",
-        "Equipement": "Ausrüstung",
+        "Sauvegarder": "Speichern",
+        "Supprimer": "Löschen",
+        "Equipement": "Gerät",
         "Dashboard": "Armaturenbrett",
         "Mobile": "Handy",
-        "Nom de l'équipement html": "Name der HTML-Ausrüstung",
+        "Nom de l'équipement html": "",
         "Objet parent": "Übergeordnetes Objekt",
-        "Aucun": "keine",
-        "Activer": "activate",
-        "Visible": "sichtbar"
+        "Aucun": "Ohne",
+        "Activer": "Aktivieren",
+        "Visible": "Sichtbar"
     },
-    "core\/ajax\/htmldisplay.ajax.php": {
-        "ajax": {
-            "php": {
-                "401 - Accès non autorisé": "401 - Unauthorized access",
-                "Impossible de trouver l\\'équipement : ": "Unable to find the equipment: ",
-                "Impossible de créer le dossier : ": "Unable to create folder: ",
-                "Impossible d\\'écrire dans : ": "Unable to write to: ",
-                "Aucune méthode correspondante à : ": "No method corresponding to: "
-            }
-        }
+    "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Impossible de trouver l\\'équipement : ": "Die Ausrüstung konnte nicht gefunden werden:",
+        "Impossible de créer le dossier : ": "",
+        "Impossible d\\'écrire dans : ": "Kann nicht schreiben an:",
+        "Aucune méthode correspondante à : ": "Keine Methode entsprechend:"
     }
 }

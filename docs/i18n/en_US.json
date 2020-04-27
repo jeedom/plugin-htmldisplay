@@ -4,9 +4,9 @@
         "Version initiale": "Initial version"
     },
     "index.md": {
-        "HTML Display": "HTML Display",
+        "HTML Display": "",
         "Plugin très simple permettant de mettre le code HTML\/javascript\/Css que vous voulez sur sa tuile équipements": "Very simple plugin allowing you to put the HTML \/ javascript \/ Css code you want on its equipment tile",
-        "IMPORTANT": "IMPORTANT",
+        "IMPORTANT": "Important",
         "Le plugin necessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fournis par l'équipe Jeedom sur le code de votre widget": "The plugin needs to know how to code in HTML, Javascript and CSS, no support will be provided by the Jeedom team on the code of your widget",
         "Les cas d'utilisation peuvent etre": "Use cases can be",
         "menu unique pour les designs": "unique menu for designs",

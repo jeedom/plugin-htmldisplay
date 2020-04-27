@@ -1,33 +1,29 @@
 {
-    "desktop\/php\/htmldisplay.php": {
+    "plugins\/htmldisplay\/desktop\/php\/htmldisplay.php": {
         "401 - Accès non autorisé": "401 - Acceso no autorizado",
-        "Gestion": "administración",
-        "Ajouter": "añadir",
-        "Configuration": "configuración",
-        "Mes templates": "Mis plantillas",
+        "Gestion": "Gestión",
+        "Ajouter": "Añadir",
+        "Configuration": "Configuración",
+        "Mes templates": "",
         "Rechercher": "Buscar",
-        "Icônes\/Images": "Iconos \/ Imágenes",
+        "Icônes\/Images": "",
         "Configuration avancée": "Configuración avanzada",
         "Sauvegarder": "Guardar",
-        "Supprimer": "remove",
-        "Equipement": "equipo",
-        "Dashboard": "salpicadero",
-        "Mobile": "móvil",
-        "Nom de l'équipement html": "Nombre del equipo html",
+        "Supprimer": "Borrar",
+        "Equipement": "Dispositivos",
+        "Dashboard": "Salpicadero",
+        "Mobile": "Móvil",
+        "Nom de l'équipement html": "",
         "Objet parent": "Objeto padre",
-        "Aucun": "no",
+        "Aucun": "Ninguna",
         "Activer": "Activar",
-        "Visible": "visible"
+        "Visible": "Visible"
     },
-    "core\/ajax\/htmldisplay.ajax.php": {
-        "ajax": {
-            "php": {
-                "401 - Accès non autorisé": "401 - Unauthorized access",
-                "Impossible de trouver l\\'équipement : ": "Unable to find the equipment:",
-                "Impossible de créer le dossier : ": "Unable to create folder:",
-                "Impossible d\\'écrire dans : ": "Unable to write to:",
-                "Aucune méthode correspondante à : ": "No method corresponding to:"
-            }
-        }
+    "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
+        "401 - Accès non autorisé": "401 - Acceso no autorizado",
+        "Impossible de trouver l\\'équipement : ": "Incapaz de encontrar el equipo:",
+        "Impossible de créer le dossier : ": "",
+        "Impossible d\\'écrire dans : ": "No se puede escribir a:",
+        "Aucune méthode correspondante à : ": "Ningún método correspondiente a:"
     }
 }

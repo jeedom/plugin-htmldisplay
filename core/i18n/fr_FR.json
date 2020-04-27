@@ -1,5 +1,5 @@
 {
-    "desktop\/php\/htmldisplay.php": {
+    "plugins\/htmldisplay\/desktop\/php\/htmldisplay.php": {
         "401 - Accès non autorisé": "401 - Accès non autorisé",
         "Gestion": "Gestion",
         "Ajouter": "Ajouter",
@@ -19,7 +19,7 @@
         "Activer": "Activer",
         "Visible": "Visible"
     },
-    "core\/ajax\/htmldisplay.ajax.php": {
+    "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
         "401 - Accès non autorisé": "401 - Accès non autorisé",
         "Impossible de trouver l\\'équipement : ": "Impossible de trouver l\\'équipement : ",
         "Impossible de créer le dossier : ": "Impossible de créer le dossier : ",
