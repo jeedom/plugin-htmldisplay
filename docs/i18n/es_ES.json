@@ -11,7 +11,8 @@
         "menu unique pour les designs": "menú único para diseños",
         "inclusion d'information exterieure à Jeedom": "inclusión de información externa en Jeedom",
         "Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop)": "Como recordatorio, los diseños SIEMPRE usan la versión del panel del código (ya sea en dispositivos móviles o de escritorio)",
-        " IMPORTANT": " Importante",
+        " IMPORTANT.": " Importante.",
+        " IMPORTANT?": " Importante?",
         "IMPORTANT ": "Importante ",
         "[IMPORTANT": "[Importante",
         "IMPORTANT]": "Importante]"
