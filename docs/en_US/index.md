@@ -1,4 +1,4 @@
-# HTML Display
+# HTML Display plugin
 
 Very simple plugin allowing you to put the HTML / javascript / Css code you want on its equipment tile.
 

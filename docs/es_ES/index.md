@@ -1,4 +1,4 @@
-# Visualización HTML
+# Complemento de visualización HTML
 
 Complemento muy simple que le permite poner el código HTML / javascript / Css que desee en el mosaico de su equipo.
 

@@ -1,4 +1,4 @@
-# Exibição em HTML
+# Plug-in de exibição HTML
 
 Plugin muito simples, permitindo que você coloque o código HTML / javascript / Css desejado no bloco de equipamentos.
 

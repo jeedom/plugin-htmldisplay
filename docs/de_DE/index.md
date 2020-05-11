@@ -1,4 +1,4 @@
-# HTML-Anzeige
+# HTML Display Plugin
 
 Sehr einfaches Plugin, mit dem Sie den gewünschten HTML- / Javascript- / CSS-Code auf die Gerätekachel setzen können.
 

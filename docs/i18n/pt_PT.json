@@ -1,10 +1,16 @@
 {
     "changelog.md": {
+        "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.",
         "14\/11\/2019": "14\/11\/2019",
-        "Version initiale": "Liberação inicial"
+        "Version initiale": "Liberação inicial",
+        " IMPORTANT.": " IMPORTANTE.",
+        " IMPORTANT?": " IMPORTANTE?",
+        "IMPORTANT ": "IMPORTANTE ",
+        "[IMPORTANT": "[IMPORTANTE",
+        "IMPORTANT]": "IMPORTANTE]"
     },
     "index.md": {
-        "HTML Display": "Exibição em HTML",
+        "Plugin HTML Display": "Plug-in de exibição HTML",
         "Plugin très simple permettant de mettre le code HTML\/javascript\/Css que vous voulez sur sa tuile équipements": "Plugin muito simples, permitindo que você coloque o código HTML \/ javascript \/ Css desejado no bloco de equipamentos",
         "Le plugin necessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fournis par l'équipe Jeedom sur le code de votre widget": "O plug-in precisa saber como codificar em HTML, Javascript e CSS, nenhum suporte será fornecido pela equipe Jeedom no código do seu widget",
         "Les cas d'utilisation peuvent etre": "Os casos de uso podem ser",
