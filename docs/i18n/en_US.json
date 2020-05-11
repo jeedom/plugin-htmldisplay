@@ -1,13 +1,15 @@
 {
     "changelog.md": {
-        "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.",
+        "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text",
         "14\/11\/2019": "11\/14\/2019",
         "Version initiale": "Initial version",
         " IMPORTANT.": " Important.",
         " IMPORTANT?": " Important?",
         "IMPORTANT ": "Important ",
         "[IMPORTANT": "[Important",
-        "IMPORTANT]": "Important]"
+        "IMPORTANT]": "Important]",
+        "*IMPORTANT": "*Important",
+        "IMPORTANT*": "Important*"
     },
     "index.md": {
         "Plugin HTML Display": "HTML Display plugin",
@@ -21,6 +23,8 @@
         " IMPORTANT?": " Important?",
         "IMPORTANT ": "Important ",
         "[IMPORTANT": "[Important",
-        "IMPORTANT]": "Important]"
+        "IMPORTANT]": "Important]",
+        "*IMPORTANT": "*Important",
+        "IMPORTANT*": "Important*"
     }
 }

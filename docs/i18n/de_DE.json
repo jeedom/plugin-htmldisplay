@@ -1,13 +1,15 @@
 {
     "changelog.md": {
-        "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.",
+        "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt",
         "14\/11\/2019": "2019.11.14",
         "Version initiale": "Erstveröffentlichung",
         " IMPORTANT.": " Wichtig.",
         " IMPORTANT?": " Wichtig?",
         "IMPORTANT ": "Wichtig ",
         "[IMPORTANT": "[Wichtig",
-        "IMPORTANT]": "Wichtig]"
+        "IMPORTANT]": "Wichtig]",
+        "*IMPORTANT": "*Wichtig",
+        "IMPORTANT*": "Wichtig*"
     },
     "index.md": {
         "Plugin HTML Display": "HTML Display Plugin",
@@ -16,11 +18,13 @@
         "Les cas d'utilisation peuvent etre": "Anwendungsfälle können sein",
         "menu unique pour les designs": "einzigartiges Menü für Designs",
         "inclusion d'information exterieure à Jeedom": "Aufnahme externer Informationen bei Jeedom",
-        "Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop)": "Zur Erinnerung: Die Designs verwenden IMMER die Dashboard-Version des Codes (ob auf Mobilgeräten oder auf dem Desktop).",
+        "Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop)": "Zur Erinnerung: Die Designs verwenden IMMER die Dashboard-Version des Codes (ob auf Mobilgeräten oder auf dem Desktop)",
         " IMPORTANT.": " Wichtig.",
         " IMPORTANT?": " Wichtig?",
         "IMPORTANT ": "Wichtig ",
         "[IMPORTANT": "[Wichtig",
-        "IMPORTANT]": "Wichtig]"
+        "IMPORTANT]": "Wichtig]",
+        "*IMPORTANT": "*Wichtig",
+        "IMPORTANT*": "Wichtig*"
     }
 }
