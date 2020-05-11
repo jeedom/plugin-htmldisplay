@@ -1,0 +1,29 @@
+{
+    "plugins\/htmldisplay\/desktop\/php\/htmldisplay.php": {
+        "401 - Accès non autorisé": "401 - Yetkisiz erişim",
+        "Gestion": "Idare",
+        "Ajouter": "Ekle",
+        "Configuration": "Ayar",
+        "Mes templates": "",
+        "Rechercher": "Arayın",
+        "Icônes\/Images": "",
+        "Configuration avancée": "Gelişmiş ayarlar",
+        "Sauvegarder": "Kaydet",
+        "Supprimer": "Sil",
+        "Equipement": "Cihaz",
+        "Dashboard": "Gösterge paneli",
+        "Mobile": "Mobil",
+        "Nom de l'équipement html": "",
+        "Objet parent": "Üst nesne",
+        "Aucun": "Hiçbir",
+        "Activer": "Etkinleştir",
+        "Visible": "Görülebilir"
+    },
+    "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
+        "401 - Accès non autorisé": "401 - Yetkisiz erişim",
+        "Impossible de trouver l\\'équipement : ": "",
+        "Impossible de créer le dossier : ": "",
+        "Impossible d\\'écrire dans : ": "",
+        "Aucune méthode correspondante à : ": "Aşağıdakilere karşılık gelen bir yöntem yok:"
+    }
+}

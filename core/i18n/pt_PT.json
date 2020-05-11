@@ -1,0 +1,29 @@
+{
+    "plugins\/htmldisplay\/desktop\/php\/htmldisplay.php": {
+        "401 - Accès non autorisé": "401 - Acesso não autorizado",
+        "Gestion": "Gestão",
+        "Ajouter": "Adicionar",
+        "Configuration": "Configuração",
+        "Mes templates": "Meus modelos",
+        "Rechercher": "Pesquisa",
+        "Icônes\/Images": "Ícones \/ Imagens",
+        "Configuration avancée": "Configuração avançada",
+        "Sauvegarder": "Salvar",
+        "Supprimer": "Remover",
+        "Equipement": "Equipamento",
+        "Dashboard": "Painel de instrumentos",
+        "Mobile": "Móvel",
+        "Nom de l'équipement html": "Nome do equipamento html",
+        "Objet parent": "Objeto pai",
+        "Aucun": "Nemhum",
+        "Activer": "Ativar",
+        "Visible": "Visivél"
+    },
+    "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
+        "401 - Accès non autorisé": "401 - Acesso não autorizado",
+        "Impossible de trouver l\\'équipement : ": "Não foi possível encontrar o equipamento:",
+        "Impossible de créer le dossier : ": "Não foi possível criar a pasta:",
+        "Impossible d\\'écrire dans : ": "Não foi possível gravar em:",
+        "Aucune méthode correspondante à : ": "Aucune methode correspondante à : "
+    }
+}

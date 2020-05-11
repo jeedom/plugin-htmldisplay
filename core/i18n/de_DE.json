@@ -1,0 +1,29 @@
+{
+    "plugins\/htmldisplay\/desktop\/php\/htmldisplay.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Gestion": "Verwaltung",
+        "Ajouter": "Hinzufügen",
+        "Configuration": "Konfiguration",
+        "Mes templates": "Meine Vorlagen",
+        "Rechercher": "Suchen nach",
+        "Icônes\/Images": "Symbole \/ Bilder",
+        "Configuration avancée": "Erweiterte Konfiguration",
+        "Sauvegarder": "Speichern",
+        "Supprimer": "Löschen",
+        "Equipement": "Gerät",
+        "Dashboard": "Armaturenbrett",
+        "Mobile": "Handy",
+        "Nom de l'équipement html": "Name der HTML-Ausrüstung",
+        "Objet parent": "Übergeordnetes Objekt",
+        "Aucun": "Ohne",
+        "Activer": "Aktivieren",
+        "Visible": "Sichtbar"
+    },
+    "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Impossible de trouver l\\'équipement : ": "Die Ausrüstung konnte nicht gefunden werden:",
+        "Impossible de créer le dossier : ": "Ordner kann nicht erstellt werden:",
+        "Impossible d\\'écrire dans : ": "Kann nicht schreiben an:",
+        "Aucune méthode correspondante à : ": "Keine Methode entsprechend:"
+    }
+}

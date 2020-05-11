@@ -1,0 +1,16 @@
+{
+    "changelog.md": {
+        "14\/11\/2019": "14\/11\/2019",
+        "Version initiale": "Version initiale"
+    },
+    "index.md": {
+        "HTML Display": "HTML Display",
+        "Plugin très simple permettant de mettre le code HTML\/javascript\/Css que vous voulez sur sa tuile équipements": "Plugin très simple permettant de mettre le code HTML\/javascript\/Css que vous voulez sur sa tuile équipements",
+        "IMPORTANT": "IMPORTANT",
+        "Le plugin necessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fournis par l'équipe Jeedom sur le code de votre widget": "Le plugin necessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fournis par l'équipe Jeedom sur le code de votre widget",
+        "Les cas d'utilisation peuvent etre": "Les cas d'utilisation peuvent etre",
+        "menu unique pour les designs": "menu unique pour les designs",
+        "inclusion d'information exterieure à Jeedom": "inclusion d'information exterieure à Jeedom",
+        "Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop)": "Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop)"
+    }
+}

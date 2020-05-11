@@ -1,0 +1,29 @@
+{
+    "plugins\/htmldisplay\/desktop\/php\/htmldisplay.php": {
+        "401 - Accès non autorisé": "401 - Akses tidak sah",
+        "Gestion": "Manajemen",
+        "Ajouter": "Tambahan",
+        "Configuration": "Konfigurasi",
+        "Mes templates": "",
+        "Rechercher": "Pencarian",
+        "Icônes\/Images": "",
+        "Configuration avancée": "Konfigurasi lanjutan",
+        "Sauvegarder": "Menyimpan",
+        "Supprimer": "Menghapus",
+        "Equipement": "Peralatan",
+        "Dashboard": "",
+        "Mobile": "Mobil",
+        "Nom de l'équipement html": "",
+        "Objet parent": "Objek induk",
+        "Aucun": "Tak ada",
+        "Activer": "Mengaktifkan",
+        "Visible": "Terlihat"
+    },
+    "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
+        "401 - Accès non autorisé": "401 - Akses tidak sah",
+        "Impossible de trouver l\\'équipement : ": "",
+        "Impossible de créer le dossier : ": "",
+        "Impossible d\\'écrire dans : ": "",
+        "Aucune méthode correspondante à : ": "Aucune methode correspondante à : "
+    }
+}

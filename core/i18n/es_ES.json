@@ -1,0 +1,29 @@
+{
+    "plugins\/htmldisplay\/desktop\/php\/htmldisplay.php": {
+        "401 - Accès non autorisé": "401 - Acceso no autorizado",
+        "Gestion": "Gestión",
+        "Ajouter": "Añadir",
+        "Configuration": "Configuración",
+        "Mes templates": "Mis plantillas",
+        "Rechercher": "Buscar",
+        "Icônes\/Images": "Íconos \/ Imágenes",
+        "Configuration avancée": "Configuración avanzada",
+        "Sauvegarder": "Guardar",
+        "Supprimer": "Borrar",
+        "Equipement": "Dispositivos",
+        "Dashboard": "Salpicadero",
+        "Mobile": "Móvil",
+        "Nom de l'équipement html": "Nombre del equipo html",
+        "Objet parent": "Objeto padre",
+        "Aucun": "Ninguna",
+        "Activer": "Activar",
+        "Visible": "Visible"
+    },
+    "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
+        "401 - Accès non autorisé": "401 - Acceso no autorizado",
+        "Impossible de trouver l\\'équipement : ": "Incapaz de encontrar el equipo:",
+        "Impossible de créer le dossier : ": "No se puede crear la carpeta:",
+        "Impossible d\\'écrire dans : ": "No se puede escribir a:",
+        "Aucune méthode correspondante à : ": "Ningún método correspondiente a:"
+    }
+}
