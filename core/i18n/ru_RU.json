@@ -1,0 +1,29 @@
+{
+    "plugins\/htmldisplay\/desktop\/php\/htmldisplay.php": {
+        "401 - Accès non autorisé": "401 - Несанкционированный доступ",
+        "Gestion": "Управление",
+        "Ajouter": "Добавить",
+        "Configuration": "Конфигурация",
+        "Mes templates": "",
+        "Rechercher": "поиск",
+        "Icônes\/Images": "",
+        "Configuration avancée": "Расширенные настройки",
+        "Sauvegarder": "Сохранить",
+        "Supprimer": "удаление",
+        "Equipement": "Оборудование",
+        "Dashboard": "Приборная панель",
+        "Mobile": "мобильный",
+        "Nom de l'équipement html": "",
+        "Objet parent": "Родительский объект",
+        "Aucun": "Нет",
+        "Activer": "активировать",
+        "Visible": "Видимый"
+    },
+    "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
+        "401 - Accès non autorisé": "401 - Несанкционированный доступ",
+        "Impossible de trouver l\\'équipement : ": "",
+        "Impossible de créer le dossier : ": "",
+        "Impossible d\\'écrire dans : ": "",
+        "Aucune méthode correspondante à : ": "Aucune methode correspondante à :"
+    }
+}

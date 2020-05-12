@@ -1,0 +1,29 @@
+{
+    "plugins\/htmldisplay\/desktop\/php\/htmldisplay.php": {
+        "401 - Accès non autorisé": "401-不正アクセス",
+        "Gestion": "管理",
+        "Ajouter": "加えます",
+        "Configuration": "コンフィギュレーション",
+        "Mes templates": "",
+        "Rechercher": "検索",
+        "Icônes\/Images": "",
+        "Configuration avancée": "高度な構成",
+        "Sauvegarder": "セーブ",
+        "Supprimer": "取り除きます",
+        "Equipement": "設備",
+        "Dashboard": "計器盤",
+        "Mobile": "モバイル",
+        "Nom de l'équipement html": "",
+        "Objet parent": "親オブジェクト",
+        "Aucun": "何でもありません",
+        "Activer": "アクティブ",
+        "Visible": "目に見えます"
+    },
+    "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
+        "401 - Accès non autorisé": "401-不正アクセス",
+        "Impossible de trouver l\\'équipement : ": "",
+        "Impossible de créer le dossier : ": "",
+        "Impossible d\\'écrire dans : ": "",
+        "Aucune méthode correspondante à : ": "以下に対応するメソッドはありません："
+    }
+}
