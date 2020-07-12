@@ -48,15 +48,9 @@ class htmldisplay extends eqLogic {
     }else if($_version == 'mobile'){
       $html .= '<div class="eqLogic eqLogic-widget" data-eqLogic_id="#id#" data-eqType="#eqType#" data-version="#version#" data-eqLogic_uid="#uid#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="#style#">';
     }
-    $divwidget = $this->getConfiguration('divwidget','0');
-    if ($divwidget == 0) {
-    	$html .= '<div>';
-    	$html .= $this->getHtmlContent($_version);
-    	$html .= '</div></div>';
-    } else {
-    	$html .= $this->getHtmlContent($_version);
-      	$html .= '</div>';
-    }
+    $html .= '<div style="width:100% !important; height:100% !important;">';
+    $html .= $this->getHtmlContent($_version);
+    $html .= '</div></div>';
     return str_replace(array_keys($replace),$replace,$html);
   }
   
