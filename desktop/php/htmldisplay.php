@@ -80,7 +80,6 @@ $eqLogics = eqLogic::byType($plugin->getId());
 							<div class="col-sm-9">
 								<label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="isEnable" checked/>{{Activer}}</label>
 								<label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="isVisible" checked/>{{Visible}}</label>
-								<label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="configuration" data-l2key="divwidget"/>{{Desactiver la div additionelle}}</label>
 							</div>
 						</div>
 					</fieldset>
