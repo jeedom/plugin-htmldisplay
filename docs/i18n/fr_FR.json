@@ -3,6 +3,8 @@
         "Changelog HTML Display": "Changelog HTML Display",
         "IMPORTANT": "IMPORTANT",
         "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte",
+        "13\/07\/2020": "13\/07\/2020",
+        "Correction de bugs avec les iframes": "Correction de bugs avec les iframes",
         "14\/11\/2019": "14\/11\/2019",
         "Version initiale": "Version initiale"
     },
@@ -14,6 +16,6 @@
         "Les cas d'utilisation peuvent etre": "Les cas d'utilisation peuvent etre",
         "menu unique pour les designs": "menu unique pour les designs",
         "inclusion d'information exterieure à Jeedom": "inclusion d'information exterieure à Jeedom",
-        "Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop)": "Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop)"
+        "Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop": "Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop"
     }
 }

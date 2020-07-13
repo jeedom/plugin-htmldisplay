@@ -2,15 +2,17 @@
     "changelog.md": {
         "Changelog HTML Display": "Registro de cambios HTML Display",
         "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto",
+        "13\/07\/2020": "13\/07\/2020",
+        "Correction de bugs avec les iframes": "Corrección de errores con iframes",
         "14\/11\/2019": "11\/14\/2019",
         "Version initiale": "Lanzamiento inicial",
         " IMPORTANT.": " Importante.",
         " IMPORTANT?": " Importante?",
         "IMPORTANT ": "Importante ",
-        "[IMPORTANT": "[Importante",
-        "IMPORTANT]": "Importante]",
-        "*IMPORTANT": "*Importante",
-        "IMPORTANT*": "Importante*"
+        " IMPORTANT]": " Importante]",
+        "[IMPORTANT]": "[Importante]",
+        "*IMPORTANT*": "*Importante*",
+        " IMPORTANT*": " Importante*"
     },
     "index.md": {
         "Plugin HTML Display": "Complemento de visualización HTML",
@@ -19,13 +21,13 @@
         "Les cas d'utilisation peuvent etre": "Los casos de uso pueden ser",
         "menu unique pour les designs": "menú único para diseños",
         "inclusion d'information exterieure à Jeedom": "inclusión de información externa en Jeedom",
-        "Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop)": "Como recordatorio, los diseños SIEMPRE usan la versión del panel del código (ya sea en dispositivos móviles o de escritorio)",
+        "Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop": "Como recordatorio, los diseños SIEMPRE usan la versión del panel del código (ya sea en dispositivos móviles o de escritorio",
         " IMPORTANT.": " Importante.",
         " IMPORTANT?": " Importante?",
         "IMPORTANT ": "Importante ",
-        "[IMPORTANT": "[Importante",
-        "IMPORTANT]": "Importante]",
-        "*IMPORTANT": "*Importante",
-        "IMPORTANT*": "Importante*"
+        " IMPORTANT]": " Importante]",
+        "[IMPORTANT]": "[Importante]",
+        "*IMPORTANT*": "*Importante*",
+        " IMPORTANT*": " Importante*"
     }
 }
