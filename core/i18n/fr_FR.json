@@ -25,5 +25,8 @@
         "Impossible de créer le dossier : ": "Impossible de créer le dossier : ",
         "Impossible d\\'écrire dans : ": "Impossible d\\'écrire dans : ",
         "Aucune méthode correspondante à : ": "Aucune méthode correspondante à : "
+    },
+    "info.json": {
+        "Plugin permettant de mettre du code html dans un widget équipement (permet par exemple de faire son propre menu pour les designs)": "Plugin permettant de mettre du code html dans un widget équipement (permet par exemple de faire son propre menu pour les designs)"
     }
 }

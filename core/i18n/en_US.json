@@ -25,5 +25,8 @@
         "Impossible de créer le dossier : ": "Unable to create folder :",
         "Impossible d\\'écrire dans : ": "Unable to write to:",
         "Aucune méthode correspondante à : ": "No method corresponding to:"
+    },
+    "info.json": {
+        "Plugin permettant de mettre du code html dans un widget équipement (permet par exemple de faire son propre menu pour les designs)": "Plugin allowing you to put html code in an equipment widget (for example allows you to make your own menu for designs)"
     }
 }
