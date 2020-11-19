@@ -25,5 +25,8 @@
         "Impossible de créer le dossier : ": "Não foi possível criar a pasta:",
         "Impossible d\\'écrire dans : ": "Não foi possível gravar em:",
         "Aucune méthode correspondante à : ": "Aucune methode correspondante à :"
+    },
+    "info.json": {
+        "Plugin permettant de mettre du code html dans un widget équipement (permet par exemple de faire son propre menu pour les designs)": "Plug-in que permite inserir código html em um widget de equipamento (por exemplo, permite criar seu próprio menu para designs)"
     }
 }

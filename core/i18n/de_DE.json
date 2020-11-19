@@ -25,5 +25,8 @@
         "Impossible de créer le dossier : ": "Ordner kann nicht erstellt werden:",
         "Impossible d\\'écrire dans : ": "Kann nicht schreiben an:",
         "Aucune méthode correspondante à : ": "Keine Methode entsprechend:"
+    },
+    "info.json": {
+        "Plugin permettant de mettre du code html dans un widget équipement (permet par exemple de faire son propre menu pour les designs)": "Plugin, mit dem Sie HTML-Code in ein Geräte-Widget einfügen können (z. B. können Sie Ihr eigenes Menü für Designs erstellen)"
     }
 }
