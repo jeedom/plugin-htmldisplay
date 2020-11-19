@@ -2,7 +2,7 @@
     "id": "htmldisplay",
     "name": "HTML Display",
     "description": {
-        "fr_FR": "Plugin permettant de mettre du code html dans un widget équipement (permet par exemple de faire son propre menu pour les designs)",
+        "fr_FR": "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs).",
         "en_US": "Plugin allowing you to put html code in an equipment widget (for example allows you to make your own menu for designs)",
         "es_ES": "Complemento que le permite poner código html en un widget de equipo (por ejemplo, le permite crear su propio menú para diseños)",
         "de_DE": "Plugin, mit dem Sie HTML-Code in ein Geräte-Widget einfügen können (z. B. können Sie Ihr eigenes Menü für Designs erstellen)",
