@@ -3,6 +3,8 @@
         "Changelog HTML Display": "Changelog HTML Display",
         "IMPORTANT": "IMPORTANT",
         "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte",
+        "19\/11\/2020": "19\/11\/2020",
+        "Nouvelle présentation de la liste des objets": "Nouvelle présentation de la liste des objets",
         "13\/07\/2020": "13\/07\/2020",
         "Correction de bugs avec les iframes": "Correction de bugs avec les iframes",
         "14\/11\/2019": "14\/11\/2019",
@@ -10,12 +12,12 @@
     },
     "index.md": {
         "Plugin HTML Display": "Plugin HTML Display",
-        "Plugin très simple permettant de mettre le code HTML\/javascript\/Css que vous voulez sur sa tuile équipements": "Plugin très simple permettant de mettre le code HTML\/javascript\/Css que vous voulez sur sa tuile équipements",
+        "Plugin très simple permettant de mettre le code HTML\/Javascript\/CSS que vous voulez sur sa tuile équipement": "Plugin très simple permettant de mettre le code HTML\/Javascript\/CSS que vous voulez sur sa tuile équipement",
         "IMPORTANT": "IMPORTANT",
-        "Le plugin necessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fournis par l'équipe Jeedom sur le code de votre widget": "Le plugin necessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fournis par l'équipe Jeedom sur le code de votre widget",
-        "Les cas d'utilisation peuvent etre": "Les cas d'utilisation peuvent etre",
+        "Le plugin nécessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fourni par l'équipe Jeedom sur le code de votre widget": "Le plugin nécessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fourni par l'équipe Jeedom sur le code de votre widget",
+        "Les cas d'utilisation peuvent être": "Les cas d'utilisation peuvent être",
         "menu unique pour les designs": "menu unique pour les designs",
-        "inclusion d'information exterieure à Jeedom": "inclusion d'information exterieure à Jeedom",
-        "Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop": "Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop"
+        "inclusion d'informations extérieures à Jeedom": "inclusion d'informations extérieures à Jeedom",
+        "Pour rappel, les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop": "Pour rappel, les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop"
     }
 }

@@ -4,13 +4,13 @@ Sehr einfaches Plugin, mit dem Sie den gewünschten HTML- / Javascript- / CSS-Co
 
 >**Wichtig**
 >
->Das Plugin muss wissen, wie man in HTML, Javascript und CSS codiert. Das Jeedom-Team unterstützt den Code Ihres Widgets nicht.
+>Das Plugin setzt Kenntnisse in HTML, Javascript und CSS voraus. Das Jeedom-Team unterstützt den Code Ihres Widgets nicht.
 
 Anwendungsfälle können sein :
 
 - einzigartiges Menü für Designs
-- Aufnahme externer Informationen bei Jeedom
+- Aufnahme von Informationen außerhalb von Jeedom
 
 >**Wichtig**
 >
->Zur Erinnerung: Entwürfe verwenden IMMER die Dashboard-Version des Codes (ob auf Mobilgeräten oder auf dem Desktop))
+>Zur Erinnerung: Entwürfe verwenden IMMER die Dashboard-Version des Codes (unabhängig davon, ob Sie sich auf dem Handy oder auf dem Desktop befinden)

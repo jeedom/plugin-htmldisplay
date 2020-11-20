@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 11/19/2020
+
+- New presentation of the list of objects
+
 # 07/13/2020
 
 - Bug fixes with iframes
