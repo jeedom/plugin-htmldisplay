@@ -49,7 +49,7 @@ class htmldisplay extends eqLogic {
       $html .= '<div class="eqLogic eqLogic-widget" data-eqLogic_id="#id#" data-eqType="#eqType#" data-version="#version#" data-eqLogic_uid="#uid#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="#style#">';
     }
 
-    if ($this->getConfiguration('showtitle') == 1) {
+    if ($this->getConfiguration('showtitle', 0) == 1) {
       if ($_version == 'dashboard') {
         $html .= '<center class="widget-name">';
         $html .= '<span class="warning" title="#alert_name#">';
