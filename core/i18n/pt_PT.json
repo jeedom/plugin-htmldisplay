@@ -16,8 +16,10 @@
         "Nom de l'équipement html": "Nome do equipamento html",
         "Objet parent": "Objeto pai",
         "Aucun": "Nemhum",
+        "Catégorie": "Categoria",
         "Activer": "Ativar",
-        "Visible": "Visivél"
+        "Visible": "Visivél",
+        "Afficher le titre": "Mostrar título"
     },
     "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
         "401 - Accès non autorisé": "401 - Acesso não autorizado",

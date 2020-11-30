@@ -16,8 +16,10 @@
         "Nom de l'équipement html": "",
         "Objet parent": "Родительский объект",
         "Aucun": "Нет",
+        "Catégorie": "категория",
         "Activer": "активировать",
-        "Visible": "Видимый"
+        "Visible": "Видимый",
+        "Afficher le titre": ""
     },
     "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
         "401 - Accès non autorisé": "401 - Несанкционированный доступ",

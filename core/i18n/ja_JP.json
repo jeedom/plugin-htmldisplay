@@ -16,8 +16,10 @@
         "Nom de l'équipement html": "",
         "Objet parent": "親オブジェクト",
         "Aucun": "何でもありません",
+        "Catégorie": "カテゴリ",
         "Activer": "アクティブ",
-        "Visible": "目に見えます"
+        "Visible": "目に見えます",
+        "Afficher le titre": ""
     },
     "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
         "401 - Accès non autorisé": "401-不正アクセス",

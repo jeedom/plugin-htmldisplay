@@ -16,8 +16,10 @@
         "Nom de l'équipement html": "Name der HTML-Ausrüstung",
         "Objet parent": "Übergeordnetes Objekt",
         "Aucun": "Ohne",
+        "Catégorie": "Kategorie",
         "Activer": "Aktivieren",
-        "Visible": "Sichtbar"
+        "Visible": "Sichtbar",
+        "Afficher le titre": "Titel anzeigen"
     },
     "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
         "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",

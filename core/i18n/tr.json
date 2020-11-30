@@ -16,8 +16,10 @@
         "Nom de l'équipement html": "",
         "Objet parent": "Üst nesne",
         "Aucun": "Hiçbir",
+        "Catégorie": "Kategori",
         "Activer": "Etkinleştir",
-        "Visible": "Görülebilir"
+        "Visible": "Görülebilir",
+        "Afficher le titre": ""
     },
     "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
         "401 - Accès non autorisé": "401 - Yetkisiz erişim",

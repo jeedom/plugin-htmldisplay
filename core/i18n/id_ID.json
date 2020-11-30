@@ -16,8 +16,10 @@
         "Nom de l'équipement html": "",
         "Objet parent": "Objek induk",
         "Aucun": "Tak ada",
+        "Catégorie": "Kategori",
         "Activer": "Mengaktifkan",
-        "Visible": "Terlihat"
+        "Visible": "Terlihat",
+        "Afficher le titre": ""
     },
     "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
         "401 - Accès non autorisé": "401 - Akses tidak sah",
