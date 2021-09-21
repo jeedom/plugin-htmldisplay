@@ -4,31 +4,31 @@
         "Gestion": "Gestione",
         "Ajouter": "Aggiungi",
         "Configuration": "Configurazione",
-        "Mes templates": "",
+        "Mes templates": "Mes templates",
         "Rechercher": "Ricercare",
-        "Icônes\/Images": "",
+        "Icônes\/Images": "Icônes\/Images",
         "Configuration avancée": "Configurazione avanzata",
         "Sauvegarder": "Salva",
         "Supprimer": "Rimuovere",
         "Equipement": "Dispositivo",
         "Dashboard": "Cruscotto",
-        "Mobile": "",
-        "Nom de l'équipement html": "",
+        "Mobile": "Mobile",
+        "Nom de l'équipement html": "Nom de l'équipement html",
         "Objet parent": "Oggetto padre",
         "Aucun": "Nessuno",
         "Catégorie": "Categoria",
         "Activer": "Attivare",
         "Visible": "Visibile",
-        "Afficher le titre": ""
+        "Afficher le titre": "Afficher le titre"
     },
     "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
         "401 - Accès non autorisé": "401 - Accesso non autorizzato",
-        "Impossible de trouver l\\'équipement : ": "",
-        "Impossible de créer le dossier : ": "",
-        "Impossible d\\'écrire dans : ": "",
+        "Impossible de trouver l\\'équipement : ": "Impossible de trouver l\\'équipement :",
+        "Impossible de créer le dossier : ": "Impossible de créer le dossier :",
+        "Impossible d\\'écrire dans : ": "Impossible d\\'écrire dans :",
         "Aucune méthode correspondante à : ": "Nessun metodo corrispondente a:"
     },
     "info.json": {
-        "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs).": ""
+        "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs).": "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs)"
     }
 }
