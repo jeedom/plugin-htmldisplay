@@ -16,8 +16,10 @@
         "Nom de l'équipement html": "",
         "Objet parent": "Objek induk",
         "Aucun": "Tak ada",
+        "Catégorie": "Kategori",
         "Activer": "Mengaktifkan",
-        "Visible": "Terlihat"
+        "Visible": "Terlihat",
+        "Afficher le titre": ""
     },
     "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
         "401 - Accès non autorisé": "401 - Akses tidak sah",
@@ -27,6 +29,6 @@
         "Aucune méthode correspondante à : ": "Aucune methode correspondante à :"
     },
     "info.json": {
-        "Plugin permettant de mettre du code html dans un widget équipement (permet par exemple de faire son propre menu pour les designs)": ""
+        "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs).": ""
     }
 }

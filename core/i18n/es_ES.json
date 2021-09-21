@@ -16,8 +16,10 @@
         "Nom de l'équipement html": "Nombre del equipo html",
         "Objet parent": "Objeto padre",
         "Aucun": "Ninguna",
+        "Catégorie": "Categoría",
         "Activer": "Activar",
-        "Visible": "Visible"
+        "Visible": "Visible",
+        "Afficher le titre": "Mostrar título"
     },
     "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
         "401 - Accès non autorisé": "401 - Acceso no autorizado",
@@ -27,6 +29,6 @@
         "Aucune méthode correspondante à : ": "Ningún método correspondiente a:"
     },
     "info.json": {
-        "Plugin permettant de mettre du code html dans un widget équipement (permet par exemple de faire son propre menu pour les designs)": "Complemento que le permite poner código html en un widget de equipo (por ejemplo, le permite crear su propio menú para diseños)"
+        "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs).": "Complemento que le permite poner código HTML en un widget de equipo (por ejemplo, le permite crear su propio menú de diseños)"
     }
 }

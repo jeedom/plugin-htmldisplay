@@ -16,8 +16,10 @@
         "Nom de l'équipement html": "",
         "Objet parent": "Родительский объект",
         "Aucun": "Нет",
+        "Catégorie": "категория",
         "Activer": "активировать",
-        "Visible": "Видимый"
+        "Visible": "Видимый",
+        "Afficher le titre": ""
     },
     "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
         "401 - Accès non autorisé": "401 - Несанкционированный доступ",
@@ -27,6 +29,6 @@
         "Aucune méthode correspondante à : ": "Aucune methode correspondante à :"
     },
     "info.json": {
-        "Plugin permettant de mettre du code html dans un widget équipement (permet par exemple de faire son propre menu pour les designs)": ""
+        "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs).": ""
     }
 }
