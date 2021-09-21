@@ -41,6 +41,9 @@ class htmldisplay extends eqLogic {
   }
 
   public function toHtml($_version = 'dashboard'){
+    if (!$this->hasRight('r') || !$this->getIsEnable()) {
+			return '';
+		}
     $replace = $this->preToHtml($_version);
     $html = '';
     if ($_version == 'dashboard') {
