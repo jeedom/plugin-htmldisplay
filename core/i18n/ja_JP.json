@@ -4,31 +4,31 @@
         "Gestion": "管理",
         "Ajouter": "加えます",
         "Configuration": "コンフィギュレーション",
-        "Mes templates": "",
+        "Mes templates": "Mes templates",
         "Rechercher": "検索",
-        "Icônes\/Images": "",
+        "Icônes\/Images": "Icônes\/Images",
         "Configuration avancée": "高度な構成",
         "Sauvegarder": "セーブ",
         "Supprimer": "取り除きます",
         "Equipement": "設備",
         "Dashboard": "計器盤",
         "Mobile": "モバイル",
-        "Nom de l'équipement html": "",
+        "Nom de l'équipement html": "Nom de l'équipement html",
         "Objet parent": "親オブジェクト",
         "Aucun": "何でもありません",
         "Catégorie": "カテゴリ",
         "Activer": "アクティブ",
         "Visible": "目に見えます",
-        "Afficher le titre": ""
+        "Afficher le titre": "Afficher le titre"
     },
     "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
         "401 - Accès non autorisé": "401-不正アクセス",
-        "Impossible de trouver l\\'équipement : ": "",
-        "Impossible de créer le dossier : ": "",
-        "Impossible d\\'écrire dans : ": "",
+        "Impossible de trouver l\\'équipement : ": "Impossible de trouver l\\'équipement :",
+        "Impossible de créer le dossier : ": "Impossible de créer le dossier :",
+        "Impossible d\\'écrire dans : ": "Impossible d\\'écrire dans :",
         "Aucune méthode correspondante à : ": "以下に対応するメソッドはありません："
     },
     "info.json": {
-        "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs).": ""
+        "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs).": "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs)"
     }
 }

@@ -4,31 +4,31 @@
         "Gestion": "Управление",
         "Ajouter": "Добавить",
         "Configuration": "Конфигурация",
-        "Mes templates": "",
+        "Mes templates": "Mes templates",
         "Rechercher": "поиск",
-        "Icônes\/Images": "",
+        "Icônes\/Images": "Icônes\/Images",
         "Configuration avancée": "Расширенные настройки",
         "Sauvegarder": "Сохранить",
         "Supprimer": "удаление",
         "Equipement": "Оборудование",
         "Dashboard": "Приборная панель",
         "Mobile": "мобильный",
-        "Nom de l'équipement html": "",
+        "Nom de l'équipement html": "Nom de l'équipement html",
         "Objet parent": "Родительский объект",
         "Aucun": "Нет",
         "Catégorie": "категория",
         "Activer": "активировать",
         "Visible": "Видимый",
-        "Afficher le titre": ""
+        "Afficher le titre": "Afficher le titre"
     },
     "plugins\/htmldisplay\/core\/ajax\/htmldisplay.ajax.php": {
         "401 - Accès non autorisé": "401 - Несанкционированный доступ",
-        "Impossible de trouver l\\'équipement : ": "",
-        "Impossible de créer le dossier : ": "",
-        "Impossible d\\'écrire dans : ": "",
+        "Impossible de trouver l\\'équipement : ": "Impossible de trouver l\\'équipement :",
+        "Impossible de créer le dossier : ": "Impossible de créer le dossier :",
+        "Impossible d\\'écrire dans : ": "Impossible d\\'écrire dans :",
         "Aucune méthode correspondante à : ": "Aucune methode correspondante à :"
     },
     "info.json": {
-        "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs).": ""
+        "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs).": "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs)"
     }
 }
