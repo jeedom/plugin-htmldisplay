@@ -9,7 +9,7 @@ $eqLogics = eqLogic::byType($plugin->getId());
 
 <div class="row row-overflow">
 	<div class="col-xs-12 eqLogicThumbnailDisplay">
-		<legend><i class="fas fa-cog"></i>  {{Gestion}}</legend>
+		<legend><i class="fas fa-cog"></i> {{Gestion}}</legend>
 		<div class="eqLogicThumbnailContainer">
 			<div class="cursor eqLogicAction logoPrimary" data-action="add">
 				<i class="fas fa-plus-circle"></i>
@@ -28,7 +28,7 @@ $eqLogics = eqLogic::byType($plugin->getId());
 			<?php
 			foreach ($eqLogics as $eqLogic) {
 				$opacity = ($eqLogic->getIsEnable()) ? '' : 'disableCard';
-				echo '<div class="eqLogicDisplayCard cursor '.$opacity.'" data-eqLogic_id="' . $eqLogic->getId() . '">';
+				echo '<div class="eqLogicDisplayCard cursor ' . $opacity . '" data-eqLogic_id="' . $eqLogic->getId() . '">';
 				echo '<img src="' . $plugin->getPathImgIcon() . '"/>';
 				echo '<br>';
 				echo '<span class="name">' . $eqLogic->getHumanName(true, true) . '</span>';
@@ -52,18 +52,18 @@ $eqLogics = eqLogic::byType($plugin->getId());
 		</ul>
 		<div class="tab-content" style="height:calc(100% - 50px);overflow:auto;overflow-x: hidden;">
 			<div role="tabpanel" class="tab-pane active" id="eqlogictab">
-				<br/>
+				<br />
 				<form class="form-horizontal">
 					<fieldset>
 						<div class="form-group">
 							<label class="col-sm-3 control-label">{{Nom de l'équipement html}}</label>
 							<div class="col-sm-3">
 								<input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" />
-								<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement html}}"/>
+								<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement html}}" />
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="col-sm-3 control-label" >{{Objet parent}}</label>
+							<label class="col-sm-3 control-label">{{Objet parent}}</label>
 							<div class="col-sm-3">
 								<select id="sel_object" class="eqLogicAttr form-control" data-l1key="object_id">
 									<option value="">{{Aucun}}</option>
@@ -81,26 +81,26 @@ $eqLogics = eqLogic::byType($plugin->getId());
 							<label class="col-sm-3 control-label">{{Catégorie}}</label>
 							<div class="col-sm-9">
 								<?php
-									foreach (jeedom::getConfiguration('eqLogic:category') as $key => $value) {
+								foreach (jeedom::getConfiguration('eqLogic:category') as $key => $value) {
 									echo '<label class="checkbox-inline">';
 									echo '<input type="checkbox" class="eqLogicAttr" data-l1key="category" data-l2key="' . $key . '" />' . $value['name'];
 									echo '</label>';
 								}
 								?>
 							</div>
-						 </div>
+						</div>
 						<div class="form-group">
 							<label class="col-sm-3 control-label"></label>
 							<div class="col-sm-9">
-								<label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="isEnable" checked/>{{Activer}}</label>
-								<label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="isVisible" checked/>{{Visible}}</label>
+								<label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="isEnable" checked />{{Activer}}</label>
+								<label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="isVisible" checked />{{Visible}}</label>
 							</div>
 						</div>
 						<div class="form-group">
 							<label class="col-sm-3 control-label"></label>
 							<div class="col-sm-9">
-								<label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="configuration" data-l2key="showtitle"/>{{Afficher le titre en version Dashboard}}</label>
-								<label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="configuration" data-l2key="showtitlemobile"/>{{Afficher le titre en version Mobile}}</label>
+								<label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="configuration" data-l2key="showtitle" />{{Afficher le titre en version Dashboard}}</label>
+								<label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="configuration" data-l2key="showtitlemobile" />{{Afficher le titre en version Mobile}}</label>
 							</div>
 						</div>
 					</fieldset>
@@ -117,5 +117,5 @@ $eqLogics = eqLogic::byType($plugin->getId());
 	</div>
 </div>
 
-<?php include_file('desktop', 'htmldisplay', 'js', 'htmldisplay');?>
-<?php include_file('core', 'plugin.template', 'js');?>
+<?php include_file('desktop', 'htmldisplay', 'js', 'htmldisplay'); ?>
+<?php include_file('core', 'plugin.template', 'js'); ?>

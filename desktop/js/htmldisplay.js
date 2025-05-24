@@ -27,7 +27,7 @@ $('a[data-toggle="tab"][href="#mobiletab"]').on('shown.bs.tab', function (e) {
       matchBrackets: true,
       viewportMargin: Infinity
     });
-    if(htmldisplayContent != null){
+    if (htmldisplayContent != null) {
       editorMobileHtml.getDoc().setValue(htmldisplayContent.mobile);
       editorMobileHtml.refresh();
     }
@@ -42,20 +42,20 @@ $('a[data-toggle="tab"][href="#dashboardtab"]').on('shown.bs.tab', function (e) 
       matchBrackets: true,
       viewportMargin: Infinity
     });
-    if(htmldisplayContent != null){
+    if (htmldisplayContent != null) {
       editorDashboardHtml.getDoc().setValue(htmldisplayContent.dashboard);
       editorDashboardHtml.refresh();
     }
   }
 });
 
-function saveEqLogic(_eqLogic){
+function saveEqLogic(_eqLogic) {
   var mobile = '';
-  if(editorMobileHtml != null){
+  if (editorMobileHtml != null) {
     mobile = editorMobileHtml.getValue()
   }
-  var dashboard = '';''
-  if(editorDashboardHtml != null){
+  var dashboard = ''; ''
+  if (editorDashboardHtml != null) {
     dashboard = editorDashboardHtml.getValue()
   }
   $.ajax({
@@ -72,13 +72,13 @@ function saveEqLogic(_eqLogic){
       handleAjaxError(request, status, error);
     },
     success: function (data) {
-      
+
     }
   });
   return _eqLogic;
 }
 
-function printEqLogic(_eqLogic){
+function printEqLogic(_eqLogic) {
   $.ajax({
     type: "POST",
     url: "plugins/htmldisplay/core/ajax/htmldisplay.ajax.php",
@@ -108,18 +108,18 @@ function printEqLogic(_eqLogic){
   });
 }
 
-$('#bt_htmlDisplayChooseIcon').off('click').on('click',function(){
+$('#bt_htmlDisplayChooseIcon').off('click').on('click', function () {
   chooseIcon(function (_icon) {
     var editor = null;
-    if($('a[data-toggle="tab"][href="#mobiletab"]').closest('li').hasClass('active')){
+    if ($('a[data-toggle="tab"][href="#mobiletab"]').closest('li').hasClass('active')) {
       editor = editorMobileHtml
     }
-    if($('a[data-toggle="tab"][href="#dashboardtab"]').closest('li').hasClass('active')){
+    if ($('a[data-toggle="tab"][href="#dashboardtab"]').closest('li').hasClass('active')) {
       editor = editorDashboardHtml
     }
-    if(editor != null){
+    if (editor != null) {
       var doc = editor.getDoc();
-      doc.replaceRange(_icon,doc.getCursor());
+      doc.replaceRange(_icon, doc.getCursor());
     }
-  },{img:true});
+  }, { img: true });
 })

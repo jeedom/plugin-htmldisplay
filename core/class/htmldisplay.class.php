@@ -22,28 +22,28 @@ require_once __DIR__  . '/../../../../core/php/core.inc.php';
 class htmldisplay extends eqLogic {
   /*     * *************************Attributs****************************** */
 
- protected static $_widgetPossibility = array('custom' => true);
+  protected static $_widgetPossibility = array('custom' => true);
 
   /*     * ***********************Methode static*************************** */
 
 
   /*     * *********************Méthodes d'instance************************* */
 
-  public function postSave(){
+  public function postSave() {
     $this->refreshWidget();
   }
 
 
   public function preRemove() {
-    if(file_exists(__DIR__.'/../../data/'.$this->getId())){
-      rrmdir(__DIR__.'/../../data/'.$this->getId());
+    if (file_exists(__DIR__ . '/../../data/' . $this->getId())) {
+      rrmdir(__DIR__ . '/../../data/' . $this->getId());
     }
   }
 
-  public function toHtml($_version = 'dashboard'){
+  public function toHtml($_version = 'dashboard') {
     if (!$this->hasRight('r') || !$this->getIsEnable()) {
-			return '';
-		}
+      return '';
+    }
     $replace = $this->preToHtml($_version);
     $html = '';
     if ($_version == 'dashboard') {
@@ -79,13 +79,13 @@ class htmldisplay extends eqLogic {
     $html .= '<div style="width:100% !important; height:100% !important;">';
     $html .= $this->getHtmlContent($_version);
     $html .= '</div></div>';
-    return str_replace(array_keys($replace),$replace,$html);
+    return str_replace(array_keys($replace), $replace, $html);
   }
 
-  public function getHtmlContent($_version = 'dashboard'){
-    $path = __DIR__.'/../../data/'.$this->getId();
-    if(file_exists($path.'/'.$_version.'.html')){
-      return file_get_contents($path.'/'.$_version.'.html');;
+  public function getHtmlContent($_version = 'dashboard') {
+    $path = __DIR__ . '/../../data/' . $this->getId();
+    if (file_exists($path . '/' . $_version . '.html')) {
+      return file_get_contents($path . '/' . $_version . '.html');;
     }
     return '';
   }
@@ -103,7 +103,6 @@ class htmldisplayCmd extends cmd {
   /*     * *********************Methode d'instance************************* */
 
   public function execute($_options = array()) {
-
   }
 
   /*     * **********************Getteur Setteur*************************** */
