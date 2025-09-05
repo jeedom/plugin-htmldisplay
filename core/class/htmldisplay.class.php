@@ -22,17 +22,13 @@ require_once __DIR__  . '/../../../../core/php/core.inc.php';
 class htmldisplay extends eqLogic {
   /*     * *************************Attributs****************************** */
 
-  protected static $_widgetPossibility = array('custom' => true);
-
-  /*     * ***********************Methode static*************************** */
-
+  public static $_widgetPossibility = array('custom' => true);
 
   /*     * *********************Méthodes d'instance************************* */
 
   public function postSave() {
     $this->refreshWidget();
   }
-
 
   public function preRemove() {
     if (file_exists(__DIR__ . '/../../data/' . $this->getId())) {
@@ -46,14 +42,10 @@ class htmldisplay extends eqLogic {
     }
     $replace = $this->preToHtml($_version);
     $html = '';
+
     if ($_version == 'dashboard') {
       $html .= '<div class="eqLogic eqLogic-widget allowResize #eqLogic_class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">';
-    } else if ($_version == 'mobile') {
-      $html .= '<div class="eqLogic eqLogic-widget" data-eqLogic_id="#id#" data-eqType="#eqType#" data-version="#version#" data-eqLogic_uid="#uid#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="#style#">';
-    }
-
-    if ($this->getConfiguration('showtitle', 0) == 1) {
-      if ($_version == 'dashboard') {
+      if ($this->getConfiguration('showtitle', 0) == 1) {
         $html .= '<center class="widget-name">';
         $html .= '<span class="warning" title="#alert_name#">';
         $html .= '<i class="#alert_icon#"></i>';
@@ -62,9 +54,9 @@ class htmldisplay extends eqLogic {
         $html .= '<a href="#eqLink#" class="reportModeHidden">#name_display# <span class="object_name">#object_name#</span></a>';
         $html .= '</center>';
       }
-    }
-    if ($this->getConfiguration('showtitlemobile', 0) == 1) {
-      if ($_version == 'mobile') {
+    } else if ($_version == 'mobile') {
+      $html .= '<div class="eqLogic eqLogic-widget" data-eqLogic_id="#id#" data-eqType="#eqType#" data-version="#version#" data-eqLogic_uid="#uid#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="#style#">';
+      if ($this->getConfiguration('showtitlemobile', 0) == 1) {
         $html .= '<center>';
         $html .= '<span class="widget-name">';
         $html .= '<span class="warning" title="#alert_name#">';
@@ -89,21 +81,9 @@ class htmldisplay extends eqLogic {
     }
     return '';
   }
-
-  /*     * **********************Getteur Setteur*************************** */
 }
 
 class htmldisplayCmd extends cmd {
-  /*     * *************************Attributs****************************** */
-
-
-  /*     * ***********************Methode static*************************** */
-
-
-  /*     * *********************Methode d'instance************************* */
-
   public function execute($_options = array()) {
   }
-
-  /*     * **********************Getteur Setteur*************************** */
 }
