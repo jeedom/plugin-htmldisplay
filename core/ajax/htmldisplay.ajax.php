@@ -19,22 +19,22 @@
 try {
   require_once dirname(__FILE__) . '/../../../../core/php/core.inc.php';
   include_file('core', 'authentification', 'php');
-  
+
   if (!isConnect('admin')) {
     throw new Exception(__('401 - Accès non autorisé', __FILE__));
   }
-  
+
   if (init('action') == 'saveHtmlDisplay') {
     $eqLogic = htmldisplay::byId(init('id'));
-    if(!is_object($eqLogic)){
-      throw new \Exception(__('Impossible de trouver l\'équipement : ',__FILE__).init('id'));
+    if (!is_object($eqLogic)) {
+      throw new \Exception(__('Impossible de trouver l\'équipement : ', __FILE__) . init('id'));
     }
-    $path = __DIR__.'/../../data';
-    if(!file_exists($path)){
+    $path = __DIR__ . '/../../data';
+    if (!file_exists($path)) {
       mkdir($path);
     }
-    $path .= '/'.$eqLogic->getId();
-    if(!file_exists($path)){
+    $path .= '/' . $eqLogic->getId();
+    if (!file_exists($path)) {
       mkdir($path);
     }
     if (!file_exists($path)) {
@@ -43,21 +43,21 @@ try {
     if (!is_writable($path)) {
       throw new Exception(__('Impossible d\'écrire dans : ', __FILE__) . $path);
     }
-    if(init('mobile') != ''){
-      file_put_contents($path.'/mobile.html', init('mobile'));
+    if (init('mobile') != '') {
+      file_put_contents($path . '/mobile.html', init('mobile'));
       chmod($path, 0770);
     }
-    if(init('dashboard') != ''){
-      file_put_contents($path.'/dashboard.html', init('dashboard'));
+    if (init('dashboard') != '') {
+      file_put_contents($path . '/dashboard.html', init('dashboard'));
       chmod($path, 0770);
     }
     ajax::success();
   }
-  
+
   if (init('action') == 'getHtmlDisplay') {
     $eqLogic = htmldisplay::byId(init('id'));
-    if(!is_object($eqLogic)){
-      throw new \Exception(__('Impossible de trouver l\'équipement : ',__FILE__).init('id'));
+    if (!is_object($eqLogic)) {
+      throw new \Exception(__('Impossible de trouver l\'équipement : ', __FILE__) . init('id'));
     }
     $return = array(
       'mobile' => $eqLogic->getHtmlContent('mobile'),
@@ -65,11 +65,10 @@ try {
     );
     ajax::success($return);
   }
-  
-  
-  
+
+
+
   throw new Exception(__('Aucune méthode correspondante à : ', __FILE__) . init('action'));
 } catch (Exception $e) {
   ajax::error(displayExeption($e), $e->getCode());
 }
-?>
